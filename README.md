@@ -1,22 +1,22 @@
-# 🧠 Human Activity Recognition (HAR)
+# Human Activity Recognition (HAR)
 
-## 📌 Project Overview
+## Project Overview
 Human Activity Recognition (HAR) using **Deep Learning** is a system designed to identify and classify various human actions from video sequences.
 
 This project implements a **hybrid deep learning architecture** that extracts **spatial features** using Convolutional Neural Networks (CNNs) and captures **temporal dependencies** using Long Short-Term Memory (LSTM) networks. The model learns both appearance and motion patterns to accurately recognize complex human activities.
 
 ---
 
-## 🎯 Key Features
-- 🎥 Action recognition from video sequences
-- 🧠 CNN + LSTM hybrid deep learning model (LRCN)
-- ⏱️ Temporal sequence-based learning
-- 📊 Training accuracy and loss visualization
-- 🔍 Prediction on unseen video data
+##  Key Features
+-  Action recognition from video sequences
+-  CNN + LSTM hybrid deep learning model (LRCN)
+-  Temporal sequence-based learning
+-  Training accuracy and loss visualization
+-  Prediction on unseen video data
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Dataset:** UCF50 – Action Recognition Dataset
 - **Classes:** 50 human activity categories
 - **Examples:** Walking, running, sports, instrument playing, etc.
@@ -27,7 +27,7 @@ The dataset contains realistic videos recorded under varying conditions, making 
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 This project follows the **LRCN (Long-term Recurrent Convolutional Network)** approach:
 
 - **TimeDistributed CNN Layers:** Extract spatial features from video frames
@@ -36,7 +36,7 @@ This project follows the **LRCN (Long-term Recurrent Convolutional Network)** ap
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - **Programming Language:** Python
 - **Deep Learning:** TensorFlow, Keras
 - **Computer Vision:** OpenCV
@@ -46,7 +46,7 @@ This project follows the **LRCN (Long-term Recurrent Convolutional Network)** ap
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -61,14 +61,14 @@ https://www.crcv.ucf.edu/data/UCF50.rar
 
 ---
 
-## 📈 Results
+## Results
 - The model demonstrates stable learning with good convergence
 - Performance is evaluated using accuracy and loss metrics
 - Training and validation plots are generated within the notebook
 
 ---
 
-## 🎥 Video Input Methods
+## Video Input Methods
 
 This project supports multiple ways of providing video input for Human Activity Recognition, making it flexible for demos, testing, and real-world usage.
 
@@ -153,15 +153,15 @@ I successfully played a YouTube video directly by providing the video link in th
 
 ---
 
-## 🌱 Future Enhancements
-- 🎥 Real-time webcam-based action recognition
-- 🧠 Use of 3D CNNs for better spatio-temporal learning
-- 🌐 Deployment as a web application
-- 🔍 Improved accuracy using attention mechanisms
+##  Future Enhancements
+-  Real-time webcam-based action recognition
+-  Use of 3D CNNs for better spatio-temporal learning
+-  Deployment as a web application
+-  Improved accuracy using attention mechanisms
 
 ---
 
 ## 👩‍💻 Author
 **Anshika Garg**  
 B.Tech CSE (AIML) | UPES Dehradun  
-Deep Learning & Computer Vision Enthusiast
+Deep Learning & Machine Learning Enthusiast
