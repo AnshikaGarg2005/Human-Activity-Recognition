@@ -49,14 +49,14 @@ This project follows the **LRCN (Long-term Recurrent Convolutional Network)** ap
 ## 🚀 Installation & Setup
 
 ### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/AnshikaGarg2005/Human-Activity-Recognition.git
 cd Human-Activity-Recognition
+```
 
 
 ### 2️⃣ Dataset Download
-The notebook includes automated scripts to download and extract the dataset:
-wget --no-check-certificate https://www.crcv.ucf.edu/data/UCF50.rar
-unrar x UCF50.rar
+https://www.crcv.ucf.edu/data/UCF50.rar
 
 
 ---
