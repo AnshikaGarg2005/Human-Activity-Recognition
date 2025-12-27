@@ -123,8 +123,9 @@ When running the notebook on Google Colab, videos can be uploaded manually.
 
 **Limitation:**
 - Uploaded files are lost when the Colab session ends
-
 ---
+
+
 
 ### Summary
 The project is designed to be flexible by supporting:
@@ -132,7 +133,20 @@ The project is designed to be flexible by supporting:
 - Local video files for stable offline inference
 - Manual uploads for experimentation
 
+
 ---
+### Demo
+
+I successfully played a YouTube video directly by providing the video link in the code. The output is shown below:
+
+<img width="1039" height="529" alt="Demo Output 1" src="https://github.com/user-attachments/assets/348d7486-8fd0-46b5-98ea-8768f51be279" />
+
+
+<img width="1304" height="723" alt="Demo Output 2" src="https://github.com/user-attachments/assets/d2cb0e1f-fc20-4b7d-9110-483068acb75b" />
+
+**YouTube Video Link:** [https://www.youtube.com/watch?v=6U8ipxSRAUA](https://www.youtube.com/watch?v=6U8ipxSRAUA)
+---
+
 ## 📁 Project Structure
 ---
 <img width="638" height="237" alt="image" src="https://github.com/user-attachments/assets/10504b6f-334e-4b2e-8d9b-04fb79ad81a1" />
