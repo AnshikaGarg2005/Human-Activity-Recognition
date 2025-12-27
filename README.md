@@ -20,6 +20,8 @@ This project implements a **hybrid deep learning architecture** that extracts **
 - **Dataset:** UCF50 – Action Recognition Dataset
 - **Classes:** 50 human activity categories
 - **Examples:** Walking, running, sports, instrument playing, etc.
+<img width="954" height="1415" alt="image" src="https://github.com/user-attachments/assets/64383b91-0988-49db-bf08-dc6b661f355a" />
+
 
 The dataset contains realistic videos recorded under varying conditions, making it suitable for real-world applications.
 
@@ -81,14 +83,9 @@ https://github.com/AnshikaGarg2005/Human-Activity-Recognition/assets/VIDEO_ID
 (https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
 
 ---
-
 ## 📁 Project Structure
-Human-Activity-Recognition/
-│── Human_Activity_Recognition.ipynb
-│── README.md
-│── media/
-│   └── demo.mp4
-
+---
+<img width="638" height="237" alt="image" src="https://github.com/user-attachments/assets/10504b6f-334e-4b2e-8d9b-04fb79ad81a1" />
 
 ---
 
