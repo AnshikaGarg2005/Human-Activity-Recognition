@@ -68,19 +68,69 @@ https://www.crcv.ucf.edu/data/UCF50.rar
 
 ---
 
-## 🎥 Demo Video
+## 🎥 Video Input Methods
 
-### ▶️ GitHub Video (Recommended)
-Upload your `.mp4` file to the repository  
-(root directory or `media/` folder)  
-GitHub will auto-generate a playable link
+This project supports multiple ways of providing video input for Human Activity Recognition, making it flexible for demos, testing, and real-world usage.
 
-https://github.com/AnshikaGarg2005/Human-Activity-Recognition/assets/VIDEO_ID
+---
+
+### 1️⃣ YouTube Video URL (Current Implementation)
+The system allows users to provide a **YouTube video link** as input.
+
+**How it works:**
+- The YouTube video URL is provided by the user
+- The video is downloaded using libraries like `pafy` / `youtube-dl`
+- Frames are extracted from the video
+- The trained CNN–LSTM model predicts the human activity
+- 🟢 **No need to upload large video files**
 
 
-### ▶️ YouTube Demo (Optional)
-[![Demo Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)]
-(https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+**Advantages:**
+- Easy and quick for demonstrations
+
+
+**Limitations:**
+- Requires a stable internet connection
+- YouTube links may expire or become unavailable
+
+---
+
+### 2️⃣ Local Video File Upload (.mp4)
+The project also supports **local video files** for activity recognition.
+
+**How it works:**
+- A `.mp4` video file is uploaded to the project directory (e.g., `media/demo.mp4`)
+- Video frames are read using OpenCV or MoviePy
+- The model processes the frames and predicts the activity
+
+**Advantages:**
+- Works offline
+- More stable and reliable
+
+---
+
+### 3️⃣ Google Colab Manual Upload (Optional)
+When running the notebook on Google Colab, videos can be uploaded manually.
+
+**How it works:**
+- User uploads video using Colab’s upload interface
+- File is temporarily stored for inference
+- Model processes the video
+
+**Advantages:**
+- Simple and quick testing
+- No external video hosting required
+
+**Limitation:**
+- Uploaded files are lost when the Colab session ends
+
+---
+
+### Summary
+The project is designed to be flexible by supporting:
+- YouTube video links for easy demos
+- Local video files for stable offline inference
+- Manual uploads for experimentation
 
 ---
 ## 📁 Project Structure
